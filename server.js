@@ -33,6 +33,6 @@ app.use("/Faoliyat_data", require("./router/Faoliyat_dataRoutes"));
 app.use("/kafedra_hodim", require("./router/Kafedra_hodimRoutes"));
 app.use("/Faoliyat_hodim", require("./router/Faoliyat_hodimRoutes"));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT ;
 
 app.listen(PORT, console.log(`run server ${PORT} port`));
