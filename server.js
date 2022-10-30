@@ -4,7 +4,7 @@ require("dotenv").config();
 const app = express();
 const mongoose = require("mongoose");
 mongoose
-   .connect("mongodb+srv://user:123@cluster0.jfchqlf.mongodb.net/?retryWrites=true&w=majority", {
+   .connect("mongodb+srv://Umid:5KvJJXIhCWXmmapN@cluster0.ror54ez.mongodb.net/Salom?retryWrites=true&w=majority", {
       useNewUrlParser: true,
    })
    .then(() => {
