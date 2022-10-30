@@ -5,7 +5,7 @@ exports.addElon = async (req, res) => {
     try {
         const elon = new Elon({
             ...req.body,
-            // photo: req.file.filename
+            photo: req.file.filename
         })
         await elon.save()
         res.status(201).json(
